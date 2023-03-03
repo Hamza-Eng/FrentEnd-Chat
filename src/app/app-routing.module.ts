@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ConversationRoutingModule } from './private/conversation-routing.module';
 
 const routes: Routes = [];
 

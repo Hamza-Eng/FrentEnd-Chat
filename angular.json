@@ -22,12 +22,31 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/assets/images/**"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/assets/css/app.min.css",
+              "src/assets/assets/css/bootstrap.min.css",
+              "src/assets/assets/css/icons.min.css",
+              "src/assets/assets/libs/magnific-popup/magnific-popup.css",
+              "src/assets/assets/libs/owl.carousel/assets/owl.carousel.min.css",
+              "src/assets/assets/libs/owl.carousel/assets/owl.theme.default.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/assets/libs/jquery/jquery.min.js",
+              "src/assets/assets/libs/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/assets/libs/magnific-popup/jquery.magnific-popup.min.js",
+              "src/assets/assets/libs/simplebar/simplebar.min.js",
+              "src/assets/assets/libs/node-waves/waves.min.js",
+              "src/assets/assets/libs/owl.carousel/owl.carousel.min.js",
+              "src/assets/assets/js/pages/index.init.js",
+              "src/assets/assets/js/app.js"
+
+
+
+
+            ]
           },
           "configurations": {
             "production": {
